@@ -2,8 +2,8 @@
 layout: page
 width: expand
 hero:
-    title: How can we help you?
-    subtitle: Search or browse in depth articles and videos on everything on Docs Jekyll theme, from basic theme setup to customisation and development
+    title: Welcome to Melon the infrastructure<br> for asset management 3.0
+    subtitle: Melon is an Ethereum-based protocol for <b>decentralized on-chain asset management. It is a protocol for people or entities to manage their wealth & the wealth of others</b> within a customizable and safe environment. Melon empowers anyone to set up, manage and invest in customized on-chain investment vehicles.
     image: knowledge.svg
     search: true
 ---
