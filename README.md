@@ -1,84 +1,89 @@
-# Jekyll Netlify Boilerplate
+# Docs is a premium documentation Jekyll theme
 
-*Note: Check out my [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate). It does pretty much the same as this project but uses the [Eleventy](https://www.11ty.io/) static site generator. It's fast, flexible and doesn't require Ruby.*
+Desk was developed by [Ivan Chromjak](https://ivanchromjak.com) for [jekyll.plus](https://jekyll.plus/), theme [live demo](https://docs.jekyll.plus/) available.
 
-**A really simple Jekyll template for creating a fast, static website on Netlify with
-a continuous deployment workflow.**
+## Installation
 
-🔥 **This project is featured on Netlify's official [template showcase](http://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/) and blog: [The top 10 Static Site Generators to watch in 2018](http://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/)** 🔥
-
-* Minimal styling, ready to make your own
-* Example blog posts, pages and contact form
-* Responsive CSS Grid layout with fallbacks for older browsers
-* Continuous Deployment workflow via Netlify and Github
-* Netlify CMS for managing content
-* Netlify Identity for authenticating users
-* Netlify Forms for processing your static HTML forms with reCAPTCHA
-* Optional Netlify `_redirects` and `_headers` files ready to use
-* Jekyll SASS pipeline
-* Minified HTML and CSS
-
-Based on Netlify's [Jekyll + Netlify CMS](https://github.com/netlify-templates/jekyll-netlify-cms) starter template, head over there for more details on deployment and build settings or to get help with setting up Netlify.
-
-For help with templates, local development and other Jekyll related stuff, check out the excellent [Jekyll Docs](https://jekyllrb.com/docs/home/).
-
-## [View Demo](https://jekyll-netlify-boilerplate.netlify.com/)
-
-## Performance
-
-You can test the demo site's TTFB (Time To First Byte) at [testmysite.io](https://testmysite.io/5b50abe51f12b74b81dd5442/jekyll-netlify-boilerplate.netlify.com)
-
-## Getting started
-
-Simply click the deploy button to get your own copy of the repository deployed to Netlify:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/jekyll-netlify-boilerplate&stack=cms)
-
-This will setup everything needed for running the CMS:
-
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
-
-### Setup authentication
-
-After deploying this project, Netlify Identity will add you as a CMS user and
-will email you an invite. It is not necessary to accept this invite if you wish
-to use an
-[OAuth provider](https://www.netlify.com/docs/identity/#external-provider-login)
-(e.g. Github) to manage authentication for your CMS.
-It is recommended to use this method of authentication as it removes the need
-for an email & password to log in to the CMS and is generally more secure. You
-will need to add an OAuth provider in your Netlify app settings under
-"Settings" > "Identity" > "External providers".
-
-Next, navigate to `/admin` on your site, choose your OAuth provider from the
-login box and you should then be logged into your CMS.
-
-Now you're all set, and you can start editing content!
-
-**Note:** if you switch the repo that was created to private, you'll need to regenerate your token,
-as the token generated using the deploy to Netlify button can only access public repositories. To
-regenerate your token, head to "Settings" in your Netlify site dashboard, go to the "Identity"
-section, then scroll to "Services" where you'll see an "Edit settings" button. Click that and you'll
-see a text link to "Generate access token in GitHub".
-
-## Local Development
-
-Clone this repository and run:
+Install the dependencies with [Bundler](http://bundler.io/):
 
 ```bash
 bundle install
-bundle exec jekyll server --watch
 ```
-Jekyll will watch your project folder for changes.
 
-Now navigate to [localhost:4000](http://localhost:4000/) to preview the site, and
-[localhost:4000/admin](http://localhost:4000/admin) to log into the CMS.
+Run the following to generate your site:
+```bash
+bundle exec jekyll serve
+```
 
-## Bug reports, feature requests, etc
+You can find more on [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
-This is an ongoing project and I welcome contributions. Feel free to submit a PR.
+## Setup
 
-If you need any help with setting up Netlify CMS, you can reach out to the Netlify team in the [Netlify CMS Gitter](https://gitter.im/netlify/netlifycms).
+### Site and author details
+Add your site and author details in `_config.yml`:
+```yaml
+# Site title and description
+title:              Docs
+description:        Documentation Jekyll theme.
+lang:               en
+
+# Site subpath, e.g. /blog
+baseurl:            ""
+
+# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+permalink:          /:title/
+
+# Site base hostname & protocol, e.g. http://example.com
+url:                "https://docs.jekyll.plus"
+
+# Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
+logo:               
+
+navbar:
+  search:           true;
+  
+# Default author settings
+author:
+    name:           Pete Seth
+    title:          Lead Developer  
+    avatar:         avatar-tom.png
+```
+
+## Customization
+
+To modify the primary color, open `/_sass/theme/variables.scss` and replace the color values e.g.:
+
+```scss
+$global-primary-background:                   #05c896;
+```
+
+Further style customisation can be done in the following files:
+```
+/_sass/theme/mixins.scss
+/_sass/theme/variables.scss
+/assets/css/main.scss
+```
+
+## Development
+
+Install [UIkit](https://getuikit.com/) font end framework dependency via Npm:
+```bash
+npm install
+```
+Enable live browser reload with the following:
+```bash
+bundle exec jekyll s --livereload
+```
+
+## Credits and Sources
+
+- Google analytics https://www.google.com/analytics/
+- Google maps https://www.google.com/maps
+- UIkit front end framework https://getuikit.com/
+- Jekyll CML https://jekyllrb.com/
+
+## Support
+Customer support is provided through our Envato profile page [contact form](https://themeforest.net/item/docs-responsive-documentation-manual-jekyll-theme/21131076/support) for up to six months from the purchase date and is provided Monday to Friday during the business week. We aim to answer all support requests daily, most are handled within 24h.
+
+## Documentation
+Full documentation can be found here: [https://docs.jekyll.plus/](https://docs.jekyll.plus/).

@@ -1,24 +1,32 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
-<html data-current="{{ page.section }}" lang="en">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+    <body>
 
-    {% include header.html %}
+    {% if page.hero %}
+        {% include hero.html %}
+    {% else %}
+        {% include navbar.html %}
+    {% endif %}
 
-    <main>
+    {{ content }}
 
-      {{ content }}
+    {% include offcanvas-docs.html %}
 
-    </main>
+    {% include offcanvas.html %}
 
-    {% include footer.html %}
+    {% if page.layout != 'doc' %}
+        {% include footer.html %}
+    {% endif %}
 
-  </body>
+    {% if page.layout == 'doc' %}
+        {% include hook-pre-closing-body-doc.html %}
+    {% endif %}
+
+    {% include hook-pre-closing-body.html %}
+
+    </body>
 
 </html>
