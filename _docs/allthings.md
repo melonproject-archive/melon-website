@@ -3,11 +3,12 @@ title: All things Melon
 subtitle: 
 ---
 
-- Download the Melon Manager Interface [here](https://github.com/melonproject/melon-lab/releases) in order to create your own fund or invest in an existing fund. Instructions can be found [here](https://medium.com/melonprotocol/melon-v1-0-zahreddino-60105f51988d).
+[Download the Melon Manager Interface](https://github.com/melonproject/melon-lab/releases) in order to create your own fund or invest in an existing fund. Instructions can be found [here](https://medium.com/melonprotocol/melon-v1-0-zahreddino-60105f51988d).
 
-- If you’d like to dig into the smart contracts, head over [here](https://www.docs.melonphttps://github.com/melonproject/protocol). It also contains a handy Typescript library to make interactions with the protocol easier. 
+If you’d like to dig into the smart contracts, head over [here](https://github.com/melonproject/protocol).<br>
+It also contains a handy Typescript library to make interactions with the protocol easier. 
 
-- The technical documentation is available [here](https://www.docs.melonport.com/)
+The technical documentation is available at the [here](https://www.docs.melonport.com/).
 
 - [Melon Network explorer](http://monitoring.melon.network/)
 - [Melon Funding Proposals](https://github.com/melonproject/MFP)

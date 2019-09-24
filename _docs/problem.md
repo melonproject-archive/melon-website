@@ -4,13 +4,15 @@ subtitle:
 ---
 
 ### A primer on the fund industry
+
 So what exactly are ‘funds’ - such as mutual funds, hedge funds, private equity funds, venture funds etc.?  Also known as ‘pooled investment vehicles’ or ‘collective investment vehicles’, these funds are portfolios of assets chosen by a portfolio manager but made available for outsiders to invest in (hence the ‘pooled’ or ‘collective’ nature of the investment vehicle, since the capital available to the portfolio manager to invest with is provided by numerous investors). The investors will range from pension funds, endowments, insurance companies, to ordinary individual savers like you and me. The investors have no say on the choice of investments which go into the portfolio. That is the exclusive role of the portfolio manager and the investors pay the portfolio manager fees to make those decisions. Those fees consist of management fees (typically paid quarterly, bi-annually or annually regardless of how well the portfolio performs) and performance fees (typically payable only if the portfolio reaches a certain threshold of performance).
 
-{% include image.html img="knowledge.svg" alt="Alt for image" caption="caption" %}
+{% include image.html img="problem01.jpg" alt="Traditional Fund Management"  %}
 
 **The above diagram illustrates what the typical asset management value chain looks like for a fund. A fund with AUM (Assets Under Management) of approx $10m might incur a one-off fee of 40bps (of AUM) in Year 1, followed by a 35bps recurring fee after that.**
 
 The pooled or collective investment vehicle is created as a separate legal entity (usually called a ‘fund’) which investors invest in by buying shares in the fund (so the fund, the fund manager and the fund investors are distinct entities). The fund is set up according to specific rules (the mandate) which ensures the investors have exposure to a particular asset (e.g. US tech shares, African resource shares, Latin American USD government bonds, high yield corporate bonds etc.). The mandate defines what kinds of assets can be invested in (the ‘investable universe’) so that the investor knows roughly what type of investments the portfolio manager will make. This ensures that, for example, an investor looking for exposure to European blue-chip equities can invest in a European equities fund knowing that the portfolio manager will be in legal breach if he or she invests the fund’s capital in, say, Nigerian mineral rights, or defaulted Cuban debt. The mandate will also specify other limits and restrictions (parameters), such as, for example, no more than 10% of the fund being allowed in one single security, sector, issuer, commodity etc. The fund’s legal documents will also specify who is and who is not allowed to invest. For example, some hedge funds are only open to ‘designated’ investors, namely those who can demonstrate a level of financial sophistication deemed necessary to understand the strategy employed by the hedge fund’s manager.
+
 How long does it take and how much does it cost to create a fund? The fund set-up usually takes between four and eight weeks, depending on the legal jurisdiction chosen (Luxembourg, Ireland and Cayman are some of the more popular international legal frameworks). The cost of setting up a fund is usually between $25,000- $50,000
 
 

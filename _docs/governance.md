@@ -5,6 +5,9 @@ subtitle:
 
 After delivering the v1.0 of Melon in February 2019, Melonport AG dissolved as promised, and handed over the governance of the protocol to a decentralized governance system. The Melon governance system can be described as being a skill-based and user-centric model. You can learn more about the Melon governance system [here](https://medium.com/melonprotocol/introduction-to-the-melon-governance-system-f6ff73c70eb0)
 
+
+### The Melon Council
+
 The Melon Council is a DAO that governs the protocol and is responsible for its future maintenance. All decisions made by the Melon Council are consultable in real time on the [Melon Council aragonOS interface](https://aragon.mainnet.aragonpm.com/#/0xfe1f2de598f42ce67bb9aad5ad473f0272d09b74/0x5e7ddf72114842a580b8d0db57da191eeced8db9). 
 
 #### Mission
@@ -40,6 +43,7 @@ Users of the network that can prove a certain % of  AUM on the network have MEB 
 {% include team.html authors="janos, matthew, fabian, will, martin, nick, zahreddine, jenna" title="" subtitle=""%}
 
 ### Join the MTC
+
 You can apply to join the MTC by sending your profile and motivations to: team@meloncouncil.io. 
 
 Applicants to the Technical Council shall meet the following criteria:
@@ -53,12 +57,14 @@ Each application to the MTC will be reviewed by the whole council and will be su
 
 ### Join the MEB
 
-The trade association MAMA (mama.global) is happy to help out with the organization of the MEB. Reach out here: meb@mama.global
+The trade association MAMA (mama.global) is happy to help out with the organization of the MEB.<br>Reach out here: [meb@mama.global](mailto:meb@mama.global)
 
 ### Get in touch
-team@meloncouncil.io
+
+[team@meloncouncil.io](mailto:team@meloncouncil.io)
 
 ### Related readings
+
 - [Introduction to the Melon Governance System](https://medium.com/melonprotocol/introduction-to-the-melon-governance-system-f6ff73c70eb0)
 - [Launching the Melon Council DAO on aragonOS](https://medium.com/melonprotocol/launching-the-melon-council-dao-on-aragonos-42147c86582)
 - [Melon Council: everything (newnew) you need to know](https://medium.com/melonprotocol/melon-council-ee7eb75968ac)

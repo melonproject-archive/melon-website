@@ -16,6 +16,7 @@ Another aspect of the token model is that the protocol inflates by a fixed amoun
 In summary though, **the essential point to grasp is that the MLN token model directly links the usage of the Melon network to the value of the token.**
 
 #### Related readings
+
 - [Melonomics Part 1](https://medium.com/melonprotocol/melonomics-part-1-aligning-interests-through-token-unification-d0b98a02de46)
 - [Melonomics Part 2](https://medium.com/melonprotocol/melonomics-part-2-the-melon-engine-48bcb0dae65)
 - [Melonomics Part 3](https://medium.com/melonprotocol/melonomics-part-3-counting-melons-7632afad844c)
