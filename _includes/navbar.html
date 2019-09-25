@@ -5,7 +5,7 @@
                 <div class="uk-navbar-left">
                     <a class="uk-navbar-item uk-logo uk-visible@m" href="{{ "/" | relative_url }}">{% if site.logo %}<img src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
                     {% if site.data.translation[site.lang].mobile_nav_docs %}
-                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">{{ site.data.translation[site.lang].mobile_nav_docs }}</span></a>
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span></a>
                     {% else %}
                         <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-navbar-toggle-icon data-uk-toggle></a>
                     {% endif %}
@@ -139,9 +139,9 @@
                     </ul>
 
                     {% if site.data.translation[site.lang].mobile_nav_site %}
-                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">{{ site.data.translation[site.lang].mobile_nav_site }}</span></a>
+                        <a class="uk-navbar-toggle uk-hidden" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">{{ site.data.translation[site.lang].mobile_nav_site }}</span></a>
                     {% else %}
-                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a>
+                        <a class="uk-navbar-toggle uk-hidden" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a>
                     {% endif %}
 
                 </div>
