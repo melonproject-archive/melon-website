@@ -85,7 +85,9 @@ $label-text-transform:                          unset;
 $label-padding-vertical:                        2px;
 
 // Navbar
-$navbar-background:                           #fff;
+$navbar-background:                           	#fff;
+$navbar-height:     														140px;
+$navbar-height-xs:     													80px;
 $navbar-nav-item-color:                         $global-color;
 $navbar-nav-item-hover-color:                   $global-primary-background;
 $navbar-nav-item-active-color:                  $global-primary-background;

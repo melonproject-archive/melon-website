@@ -30,6 +30,7 @@
 
 @mixin hook-navbar(){
     font-weight: 500;
+    height: $navbar-height-xs;
     .uk-drop {
         width: 360px;
     }
@@ -38,6 +39,9 @@
         font-size: 1.0625rem;
         padding-left: 1.1875rem;
         background: #fff;
+    }
+    @media (min-width: $breakpoint-medium) {
+        height: $navbar-height;
     }
 }
 
@@ -59,6 +63,15 @@
 
 @mixin hook-logo(){
     font-weight: 700;
+    img{
+        max-height: 50px; 
+        margin-bottom: 10px;
+        @media (min-width: $breakpoint-medium) {
+            max-height: 80px; 
+            margin-bottom: 20px;
+        }
+    }  
+    
 }
 
 @mixin hook-button(){
@@ -391,7 +404,8 @@
 }
 
 @mixin hook-navbar-sticky(){
-    border-bottom: solid 1px $border-xlight;
+    background: linear-gradient(rgba(255, 255, 255, 1)50.54%, rgba(255, 255, 255, 0.86) 74.92%, rgba(255, 255, 255, 0) 101.51%);
+    //border-bottom: solid 1px $border-xlight;
 }
 @mixin hook-accordion-title(){
 

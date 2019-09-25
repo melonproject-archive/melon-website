@@ -3,7 +3,7 @@
         <div class="uk-container">
             <div data-uk-navbar>
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo uk-visible@m" href="{{ "/" | relative_url }}">{% if site.logo %}<img src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
+                    
                     {% if site.data.translation[site.lang].mobile_nav_docs %}
                         <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span></a>
                     {% else %}
@@ -60,7 +60,7 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="uk-navbar-center uk-hidden@m">
+                <div class="uk-navbar-center">
                     <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">{% if site.logo %}<img src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
                 </div>
                 <div class="uk-navbar-right uk-hidden">
