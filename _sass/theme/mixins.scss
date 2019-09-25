@@ -73,6 +73,10 @@
     }  
     
 }
+@mixin hook-base-hr(){
+    //border-width: 2px;
+    border-color: #05c896;
+}
 
 @mixin hook-button(){
     border-radius: 30px;
@@ -435,6 +439,7 @@
     padding: 20px;
 }
 
+
 @mixin hook-utility-misc(){
     .border-xlight {
         border: solid 1px $border-xlight;
@@ -588,8 +593,9 @@
 
         }
         .uk-text-lead {
+            padding-top: 24px;
             font-size: 1.25rem;
-            color: #686c7b;
+            color: #505050;
         }
     }
 
