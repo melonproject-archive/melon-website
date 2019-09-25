@@ -1,16 +1,51 @@
 # Boxes include navigation
 
-- title: Getting Started
-  desc: Get started fast with installation and theme setup instructions
+- title: The Problem
+  desc: small description about this topic
+  icon: more
+  doc: problem
+
+- title: Melon as a solution
+  desc: small description about this topic
+  icon: lifesaver
+  doc: solution
+
+- title: Set up your fund
+  desc: small description about this topic
   icon: cog
-  doc: installation
+  doc: set-up-fund
 
-- title: Theme Features
-  desc: Lean about all the theme options, features and how to use them
-  icon: settings
-  doc: hero
+- title: Governance
+  desc: small description about this topic
+  icon: users
+  doc: governance
 
-- title: Customization
-  desc: Get help or tailor the theme to your specific requirements
-  icon: code
-  doc: customize
+- title: Melonomics
+  desc: small description about this topic
+  icon: world
+  doc: melonomics
+
+- title: Protocol security
+  desc: small description about this topic
+  icon: lock
+  doc: protocol-security
+
+- title: Ecosystem overview
+  desc: small description about this topic
+  icon: social
+  doc: ecosystem
+
+- title: All things Melon 
+  desc: small description about this topic
+  icon: album
+  doc: all-things
+
+- title: Regulatory matters
+  desc: small description about this topic
+  icon: file-text
+  doc: regulatory-matters
+
+- title: Get involved! 
+  desc: small description about this topic
+  icon: comment
+  doc: get-involved
