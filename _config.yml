@@ -121,6 +121,7 @@ gems:
   - jekyll-gist
   - jekyll-avatar
 exclude:
+  - netlify.toml
   - Gemfile
   - Gemfile.lock
   - node_modules
