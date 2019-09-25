@@ -1,16 +1,16 @@
 # Navbar left menu navigation links
 
 left:
-  # title: Home
+  # - title: Home
     # url: /
 
-  # title: Docs
+  # - title: Docs
     # url: /docs/problem/
 
-  # title: Blog
+  # - title: Blog
     # url: /blog/
 
-  # title: Changelogs
+  # - title: Changelogs
     # dropdown:
 
       # - title: Timeline Style
@@ -24,13 +24,13 @@ left:
 
 right:
 
-  # title: Changelog
-  #  url: /changelog-timeline/
-  #  button: primary-outline
+  - title: Changelog
+    url: /changelog-timeline/
+    button: primary-outline
 
-  # title: Contact
-  #  url: /contact/
-  #  button: success
+  - title: Contact
+    url: /contact/
+    button: success
 
   # - title: Changelog
   #   url: /contact/

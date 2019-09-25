@@ -15,9 +15,8 @@
 
     {% include offcanvas-docs.html %}
 
-    {% include offcanvas.html %}
-
-    {% if page.layout != 'doc' %}
+    {% if page.layout == 'example' %}
+        {% include offcanvas.html %}
         {% include footer.html %}
     {% endif %}
 
