@@ -19,23 +19,23 @@ permalink:          /:title/
 url:                "https://docs.jekyll.plus"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:               melon-logo.svg          
+logo:               melon-logo.svg
 
 navbar:
     sticky:         true
     search:         true
-  
+
 # Default author settings
 author:
     name:           Jenna Zenk
-    title:          CTO @ Avantgarde Finance 
+    title:          CTO @ Avantgarde Finance
     avatar:         default-avatar.png
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
     janos:
       name:         Janos Berghorn
-      title:        Investor @ KR1 
+      title:        Investor @ KR1
       avatar:       default-avatar.png
     matthew:
       name:         Matthew Di Ferrante
@@ -43,19 +43,19 @@ authors:
       avatar:       default-avatar.png
     fabian:
       name:         Fabian Gompf
-      title:        VP @ Parity Technologies     
+      title:        VP @ Parity Technologies
       avatar:       default-avatar.png
     will:
       name:         Will Harborne
-      title:        CEO @ DeversiFi     
+      title:        CEO @ DeversiFi
       avatar:       default-avatar.png
     martin:
       name:         Martin Lundfall
-      title:        Formal Verification Researcher @ Ethereum Foundation & DappHub    
+      title:        Formal Verification Researcher @ Ethereum Foundation & DappHub
       avatar:       default-avatar.png
     nick:
       name:         Nick Munoz-McDonald
-      title:        Smart Contract Auditor & Researcher @ G0 Group    
+      title:        Smart Contract Auditor & Researcher @ G0 Group
       avatar:       default-avatar.png
     zahreddine:
       name:         Zahreddine Touag
@@ -63,24 +63,24 @@ authors:
       avatar:       default-avatar.png
     jenna:
       name:         Jenna Zenk
-      title:        CTO @ Avantgarde Finance 
+      title:        CTO @ Avantgarde Finance
       avatar:       default-avatar.png
 
 # Social icons displayed in footer
 social:
     email:
     website:
-    facebook:       
+    facebook:
     flickr:
     dribbble:
     github:         https://github.com/melonproject
     googleplus:
-    instagram:      
+    instagram:
     linkedin:
     pinterest:
     twitter:        https://twitter.com/melonprotocol
-    vimeo:          
-    youtube:        
+    vimeo:
+    youtube:
     reddit:         https://www.reddit.com/r/melonproject/
     medium:         https://medium.com/melonprotocol
 
@@ -88,7 +88,7 @@ social:
 share:
     post:           true # Display share buttons on a post page
     doc:            true # Display share buttons on a doc page
-    twitter:        username # Enable by adding Twitter handle 
+    twitter:        username # Enable by adding Twitter handle
     facebook:       true # Enable by setting true (Facebook handle not required)
 
 # Default footer image settings
@@ -125,6 +125,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor
 
 sass:
   style:            compressed
