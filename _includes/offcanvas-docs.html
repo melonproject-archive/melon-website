@@ -1,6 +1,7 @@
 <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
-    <div class="uk-offcanvas-bar">
-
+  <div class="uk-offcanvas-bar">
+    <div class="uk-flex uk-flex-column uk-flex-between uk-height-1-1">
+      <div>
         <button class="uk-offcanvas-close" type="button" data-uk-close></button>
 
         {% for section in site.data.navigation_docs %}
@@ -13,6 +14,12 @@
         {% endfor %}
         </ul>
         {% endfor %}
-
+      </div>
+      <div class="uk-margin-medium">
+        <div data-uk-grid class="uk-child-width-auto uk-grid-medium uk-flex-center uk-grid">
+          {% include social-networks.html %}
+        </div>
+      <div>
     </div>
+  </div>
 </div>
