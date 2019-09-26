@@ -1,0 +1,48 @@
+{% if page.header.image %}
+    {% assign image = page.header.image %}
+{% endif %}
+
+{% if page.header.align %}
+    {% assign align = page.header.align %}
+{% else %}
+    {% assign align = "center" %}
+{% endif %}
+
+<header class="uk-background-{{ align }}-center uk-background-cover" style="{% if page.header.background %}background-color: {{ page.header.background }};{% endif %}{% if page.header.image %} background-image: url({% if image contains 'http' %}{{ image }}{% else %}{{ site.uploads | absolute_url }}{{ image }}{% endif %});{% endif %}">
+    <div class="uk-overlay-header" style="{% if page.header.overlay %}background: {{ page.header.overlay }};{% endif %}">
+
+        {% include navbar.html %}
+
+        <div class="uk-section section-hero uk-position-relative" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+            <div class="uk-container uk-container-small">
+                <h1 class="uk-heading-primary uk-text-left uk-margin-remove-top">{{ page.hero.title }}</h1>
+                {% if page.hero.subtitle %}
+                <hr class="uk-hr"></hr>
+                <p class="uk-text-lead uk-text-left">{{ page.hero.subtitle }}</p>{% endif %}
+                <div class="uk-margin-medium">
+                    <div data-uk-grid class="uk-child-width-auto uk-grid-medium uk-flex-start uk-grid">
+                        {% include social-networks.html %}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<div class="uk-container uk-container-small uk-margin-large">
+    <div class="link-primary">
+        <div data-uk-grid class="uk-grid">
+        {% for section in site.data.navigation_docs %}
+            {% for doc in section.docs %}
+                {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
+                {% assign p = site.docs | where:"url", doc_url | first %}
+                <div class="">
+                    <a href="{{ p.url }}">{{ p.title }}</a>
+                </div>
+            {% endfor %}
+        {% endfor %}
+        </div>
+    </div>
+</div>

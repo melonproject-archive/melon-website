@@ -1,84 +1,154 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# This config file is meant for settings that affect your whole blog.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Jekyll Netlify Boilerplate
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml.
-baseurl: "" # the subpath of your site if applicable, e.g. /blog
-url: "https://jekyll-netlify-boilerplate.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
+# Site title and description
+title:              Melon
+description:        asset management 3.0
+lang:               en
 
-# Permalink format (/blog/ is ignored for pages)
-permalink: /blog/:title
+# Site subpath, e.g. /blog
+baseurl:            ""
 
-# Enable section IDs in frontmatter, useful for identifying current page
-# (used as a hook for styling etc)
-section: true
+# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+permalink:          /:title/
 
-# set to 'true' to enable Netlify CMS (/admin) in production builds
-netlifycms: true
+# Site base hostname & protocol, e.g. http://example.com
+url:                "https://melonport-staging.herokuapp.com/"
 
-# set to 'true' to enable Google Analytics tracking code in production builds
-analytics: false
+# Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
+logo:               melon-logo.svg
 
-# Compress CSS
-sass:
-  style: compressed
-  sass_dir: _sass
+navbar:
+    sticky:         true
+    search:         true
 
-# Compress HTML (in liquid via layouts/compress.html)
-compress_html:
-  clippings: all
+# Default author settings
+author:
+    name:           Jenna Zenk
+    title:          CTO @ Avantgarde Finance
+    avatar:         default-avatar.png
 
-# set some common post defaults
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      layout: "post" # set the correct default template for a post
-      section: "post" # set the root section name
+# Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
+authors:
+    janos:
+      name:         Janos Berghorn
+      title:        Investor @ KR1
+      avatar:       default-avatar.png
+    matthew:
+      name:         Matthew Di Ferrante
+      title:        Founder @ ZK Labs & Security at Ethereum Foundation
+      avatar:       default-avatar.png
+    fabian:
+      name:         Fabian Gompf
+      title:        VP @ Parity Technologies
+      avatar:       default-avatar.png
+    will:
+      name:         Will Harborne
+      title:        CEO @ DeversiFi
+      avatar:       default-avatar.png
+    martin:
+      name:         Martin Lundfall
+      title:        Formal Verification Researcher @ Ethereum Foundation & DappHub
+      avatar:       default-avatar.png
+    nick:
+      name:         Nick Munoz-McDonald
+      title:        Smart Contract Auditor & Researcher @ G0 Group
+      avatar:       default-avatar.png
+    zahreddine:
+      name:         Zahreddine Touag
+      title:        Co-Founder & Head of Trading @ Woorton
+      avatar:       default-avatar.png
+    jenna:
+      name:         Jenna Zenk
+      title:        CTO @ Avantgarde Finance
+      avatar:       default-avatar.png
+
+# Social icons displayed in footer
+social:
+    email:
+    website:
+    facebook:
+    flickr:
+    dribbble:
+    github:         https://github.com/melonproject
+    googleplus:
+    instagram:
+    linkedin:
+    pinterest:
+    twitter:        https://twitter.com/melonprotocol
+    vimeo:
+    youtube:
+    reddit:         https://www.reddit.com/r/melonproject/
+    medium:         https://medium.com/melonprotocol
+
+# Share button
+share:
+    post:           true # Display share buttons on a post page
+    doc:            true # Display share buttons on a doc page
+    twitter:        username # Enable by adding Twitter handle
+    facebook:       true # Enable by setting true (Facebook handle not required)
+
+# Default footer image settings
+footer:
+    copyright:      Made by a <a href="https://ivanchromjak.com/">human</a> somewhere on the planet earth.
+
+# Disqus comments shortname, requires Disqus account https://disqus.com/
+disqus:
+    shortname:      # 1234
+
+# Google analytics code, get your code here https://www.google.com/analytics/
+google_analytics:
+
+# Number of posts displayed on blog page
+paginate:           10
+
+# Blog path
+paginate_path:      "/blog/:num/"
+
+# Path to post content assets directory i.e post images, pdfs etc
+uploads:            /uploads/
 
 # Build settings
-markdown: kramdown
+markdown:           kramdown
+highlighter:        rouge
 
-# Kramdown options
-kramdown:
-  # Prevent IDs from being added to h1-h6 tags
-  auto_ids: false
-
-# Include in processing (e.g. Netlify directives)
-# Uncomment before use
-
-#include:
-#  - _redirects
-#  - _headers
-
-# Exclude from processing.
-# The following items will not be processed.
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-avatar
 exclude:
-  - README.md
-  - LICENSE.txt
   - netlify.toml
-  - feed.xml
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor
+
+sass:
+  style:            compressed
+
+collections:
+  docs:
+    output:         true
+  faqs:
+    output:         false
+  changelogs:
+    output:         false
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path:         ""
+      type:         posts
+    values:
+      layout:       post
+  # _docs
+  - scope:
+      path:         ""
+      type:         docs
+    values:
+      layout:       doc
