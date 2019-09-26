@@ -26,13 +26,13 @@ In practice, the Melon Council is responsible for the following:
 
 The Melon Council (MC) is comprised of the MTC (Melon Technical Council) and of the MEB (Melon Exposed Businesses) representatives.
 
-**_Melon Technical Council (MTC)_**
+**<i>Melon Technical Council (MTC)</i>**
 
 The MTC is the subset of the Melon Council that is responsible for providing technical expertise in various domains, and help the network make informed decisions. 
 
 The initial MTC members were appointed by the former Melonport team, and from there, new MTC members can be voted in by the Melon Council. 
 
-**_Melon Exposed Businesses (MEB) Representatives_**
+**<i>Melon Exposed Businesses (MEB) Representatives</i>**
 
 The Melon governance model is also a user-centric model. It provides users with the ability to be represented, voice their needs and to take part in the decision-making process of the network. 
 
