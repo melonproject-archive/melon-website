@@ -40,7 +40,7 @@ Users of the network that can prove a certain % of  AUM on the network have MEB 
 
 #### Current members
 
-{% include team.html authors="janos, matthew, fabian, will, martin, nick, zahreddine, jenna" title="" subtitle=""%}
+{% include team-minimal.html authors="janos, matthew, fabian, will, martin, nick, zahreddine, jenna" title="" subtitle=""%}
 
 ### Join the MTC
 
