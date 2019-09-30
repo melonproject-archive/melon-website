@@ -28,12 +28,7 @@ The initial Melon Asset Universe is composed of ERC20 tokens. It is expected to 
 
 Melon can integrate nicely at a smart contract level with many other decentralized finance protocols. Currently, it is integrated with 3 decentralized exchanges protocols. In the future, we envision many more DeFi integrations. If you’re keen to integrate a DeFi protocol with Melon, don’t hesitate to propose an MIP or MFP. 
 
-Melon asset managers are able to trade on the following decentralized exchanges through an aggregated orderbook): 
+Melon asset managers are able to trade on the following decentralized exchanges through an aggregated orderbook: 
 
-{% include image.html img="oasis-logo.png" alt="Oasis Dex logo" %}
-- OasisDex
-{% include image.html img="ox-logo.png" alt="Ox logo" %}
-- 0x
-{% include image.html img="kybernetwork-logo.png" alt="Kyber Network logo" %}
-- Kyber Network 
+{% include protocols.html %}
 

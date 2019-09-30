@@ -1,0 +1,12 @@
+# tokens include content
+- name: OasisDEX
+  image: oasis-logo.png
+  url: https://github.com/OasisDEX/oasis
+
+- name: 0x
+  image: 0x-logo.png
+  url: https://0x.org/
+
+- name: Kyber Network
+  image: kyber-logo.png
+  url: https://kyber.network/

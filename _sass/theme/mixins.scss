@@ -854,9 +854,18 @@
    }
 }
 
-.uk-token{
-   img{
-    width: 56px;
-   }
-}
 
+
+.uk-image,
+[class*="uk-image"]{
+    &[class*="--100"]{
+        width: 100%;
+    }
+    &[class*="--badge"]{
+        width: 56px;
+    }
+    &[class*="--small"]{
+        width: 96px;
+    }
+   
+}
