@@ -22,29 +22,7 @@ There are currently two independent teams working on Melon or building things on
 
 The initial Melon Asset Universe is composed of ERC20 tokens. It is expected to expand over the next few months. If you’d like for your token to be part of the Melon Asset Universe, please reach out to team@meloncouncil.io 
 
-Logos of following tokens: 
-{% include image.html img="tokens/icon-weth.png" alt="WETH" %}
-- WETH 
-{% include image.html img="tokens/icon-mln.png" alt="MLN" %}
-- MLN
-{% include image.html img="tokens/icon-mkr.png" alt="MKR" %}
-- MKR
-{% include image.html img="tokens/icon-wbtc.png" alt="WBTC" %}
-- WBTC
-{% include image.html img="tokens/icon-knc.png" alt="KNC" %}
-- KNC
-{% include image.html img="tokens/icon-zrx.png" alt="ZRX" %}
-- ZRX
-{% include image.html img="tokens/icon-bat.png" alt="BAT" %}
-- BAT
-{% include image.html img="tokens/icon-rep.png" alt="REP" %}
-- REP
-{% include image.html img="tokens/icon-dgx.png" alt="DGX" %}
-- DGX
-{% include image.html img="tokens/icon-dai.png" alt="DAI" %}
-- DAI
-{% include image.html img="tokens/icon-usdc.png" alt="USDC" %}
-- USDC
+{% include tokens.html %}
 
 ### Protocol integrations
 
