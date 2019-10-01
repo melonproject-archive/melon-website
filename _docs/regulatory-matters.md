@@ -1,6 +1,7 @@
 ---
 title: Regulatory matters
 subtitle: 
+order: 9
 ---
 
 <div class="uk-grid">

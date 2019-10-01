@@ -23,10 +23,10 @@ layout: default
 
             <div class="uk-width-1-1 uk-width-expand@m">
 
-                <article class="uk-article">
+                <article class="uk-article m-theme--c{{ page.order}}">
 
                     <h1 class="uk-article-title">{{ page.title | escape }}</h1>
-                    <hr class="uk-hr"></hr>
+                    <hr class="uk-hr m-theme-bc"></hr>
 
                     {% if page.subtitle %}<p class="uk-text-lead uk-text-muted">{{ page.subtitle }}</p>{% endif %}
 
@@ -34,11 +34,11 @@ layout: default
                         {% include post-meta.html %}
                     </div>
 
-                    <div class="article-content link-primary">
+                    <div class="article-content link-primary m-theme-link">
                         {{ content }}
                     </div>
 
-                    <hr class="uk-margin-medium">
+                    <hr class="uk-margin-medium m-theme-bc">
 
                     {% include paginate-doc.html %}
 

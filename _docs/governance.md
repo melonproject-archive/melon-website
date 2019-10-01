@@ -1,6 +1,7 @@
 ---
 title: Governance
 subtitle: 
+order: 4
 ---
 
 After delivering the v1.0 of Melon in February 2019, Melonport AG dissolved as promised, and handed over the governance of the protocol to a decentralized governance system. The Melon governance system can be described as being a skill-based and user-centric model. You can learn more about the Melon governance system [here](https://medium.com/melonprotocol/introduction-to-the-melon-governance-system-f6ff73c70eb0).

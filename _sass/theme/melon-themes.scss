@@ -27,6 +27,15 @@ $melon-themes: (
       		border-color: $color-code;
       	}
       }
-
+      .m-theme-link{
+      	a{
+      		transition: all 0.3s ease-in-out;
+      		color:$color-code;
+      		border-color: $color-code;
+      		&:hover{
+      			opacity: 0.7;
+      		}
+      	}
+      }
     }
 }

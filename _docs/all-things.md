@@ -1,6 +1,7 @@
 ---
 title: All things Melon
 subtitle: 
+order: 8
 ---
 
 [Download the Melon Manager Interface](https://github.com/melonproject/melon-lab/releases) in order to create your own fund or invest in an existing fund. Instructions can be found [here](https://medium.com/melonprotocol/melon-v1-0-zahreddino-60105f51988d).

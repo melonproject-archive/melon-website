@@ -1,6 +1,7 @@
 ---
 title: The problem
 subtitle: 
+order: 1
 ---
 
 ### A primer on the fund industry
