@@ -61,7 +61,9 @@
                     </ul>
                 </div>
                 <div class="uk-navbar-center">
-                    <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">{% if site.logo %}<img src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
+                    <a class="uk-navbar-item uk-logo m-theme--c{{include.theme}}" href="{{ "/" | relative_url }}">
+                        {% include logo.svg %}
+                    </a>
                 </div>
                 <div class="uk-navbar-right uk-hidden">
                     {% if site.navbar.search %}

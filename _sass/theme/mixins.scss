@@ -71,7 +71,7 @@
 
 @mixin hook-logo(){
     font-weight: 700;
-    img{
+    img, svg{
         max-height: 50px; 
         margin-bottom: 10px;
         @media (min-width: $breakpoint-medium) {

@@ -14,6 +14,11 @@ $melon-themes: (
 @each $melon-theme, $color-code in $melon-themes{
     .m-theme--#{$melon-theme}{
 
+			svg{
+				.m-theme-fill{
+					fill: $color-code;
+				}
+			}
       .m-theme-bg{
         background: $color-code;
       }

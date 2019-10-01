@@ -8,7 +8,12 @@
     {% if page.hero %}
         {% include hero.html %}
     {% else %}
-        {% include navbar.html %}
+        
+        {% if page.layout == 'doc' %}
+            {% include navbar.html theme=page.order %}
+        {% else %}
+            {% include navbar.html %}
+        {% endif %}
     {% endif %}
 
     {{ content }}
