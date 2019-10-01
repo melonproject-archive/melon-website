@@ -5,6 +5,10 @@
     //filter: blur(7px);
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    padding-top: $navbar-height-xs;
+    @media (min-width: $breakpoint-medium) {
+        padding-top: $navbar-height;
+    }
 }
 
 @mixin hook-base-misc(){
@@ -38,7 +42,6 @@
 
 @mixin hook-navbar(){
     font-weight: 500;
-    height: $navbar-height-xs;
     .uk-drop {
         width: 360px;
     }
@@ -419,6 +422,10 @@
 
 @mixin hook-navbar-sticky(){
     background: linear-gradient(rgba(255, 255, 255, 1)50.54%, rgba(255, 255, 255, 0.86) 74.92%, rgba(255, 255, 255, 0) 101.51%);
+    position: fixed;
+    width:100%;
+    top: 0px;
+    z-index: 1000;
     //border-bottom: solid 1px $border-xlight;
 }
 @mixin hook-accordion-title(){

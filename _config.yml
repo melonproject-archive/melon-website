@@ -22,8 +22,8 @@ url:                "https://melonport-staging.herokuapp.com/"
 logo:               melon-logo.svg
 
 navbar:
-    sticky:         true
-    search:         true
+    sticky:         false
+    search:         false
 
 # Default author settings
 author:

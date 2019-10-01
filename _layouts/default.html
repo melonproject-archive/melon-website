@@ -6,9 +6,9 @@
     <body>
 
     {% if page.hero %}
+        {% include navbar.html %}
         {% include hero.html %}
     {% else %}
-        
         {% if page.layout == 'doc' %}
             {% include navbar.html theme=page.order %}
         {% else %}
