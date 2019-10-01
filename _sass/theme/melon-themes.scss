@@ -1,0 +1,32 @@
+$melon-themes: (
+    c1: #BD3E3E,
+    c2: #DC7D48,
+    c3: #F0B255,
+    c4: #EBDB4E,
+    c5: #92C551,
+    c6: #07AA6F,
+    c7: #60CAC4,
+    c8: #4064C0,
+    c9: #9865CC,
+    c10: #DE9AD3,
+);
+
+@each $melon-theme, $color-code in $melon-themes{
+    .m-theme--#{$melon-theme}{
+      .m-theme-bg{
+        background: $color-code;
+      }
+      .m-theme-c{
+        color: $color-code;
+      }
+      .m-theme-bc{
+        border-color: $color-code;
+      }
+      .m-theme-bc-hover{
+      	&:hover{
+      		border-color: $color-code;
+      	}
+      }
+
+    }
+}
