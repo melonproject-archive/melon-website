@@ -45,7 +45,7 @@ Users of the network that can prove a certain % of  AUM on the network have MEB 
 
 ### Join the MTC
 
-You can apply to join the MTC by sending your profile and motivations to: team@meloncouncil.io. 
+You can apply to join the MTC by sending your profile and motivations to: [team@meloncouncil.io](mailto:team@meloncouncil.io) . 
 
 Applicants to the Technical Council shall meet the following criteria:
 - Provable technical skills and expertise with regards to Melon (its codebase, token economics, ecosystem) and/or existing meaningful contribution to the Melon codebase
