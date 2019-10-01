@@ -16,6 +16,7 @@ $melon-themes: (
 
 			svg{
 				.m-theme-fill{
+					transition: all 0.2s ease-in-out;
 					fill: $color-code;
 				}
 			}
@@ -56,4 +57,11 @@ $melon-themes: (
       	}
       }
     }
+}
+
+.m-theme-neutral{
+	transition: all 0.5s ease-in-out;
+	color: inherit;
+	background: inherit;
+	border-color: inherit;
 }

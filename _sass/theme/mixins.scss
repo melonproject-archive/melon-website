@@ -82,8 +82,9 @@
     
 }
 @mixin hook-base-hr(){
+    transition: all 0.2s ease-in-out;
     //border-width: 2px;
-    border-color: #05c896;
+    //border-color: #05c896;
 }
 
 @mixin hook-button(){

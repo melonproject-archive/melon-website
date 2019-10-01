@@ -17,7 +17,9 @@
             <div class="uk-container uk-container-small">
                 <h1 class="uk-heading-primary uk-text-left uk-margin-remove-top">{{ page.hero.title }}</h1>
                 {% if page.hero.subtitle %}
-                <hr class="uk-hr"></hr>
+                <div id="hero-line" class="">
+                    <hr class="uk-hr m-theme-bc"></hr>
+                </div>
                 <p class="uk-text-lead uk-text-left">{{ page.hero.subtitle }}</p>{% endif %}
                 <div class="uk-margin-medium">
                     <div data-uk-grid class="uk-child-width-auto uk-grid-medium uk-flex-start uk-grid">
@@ -32,17 +34,36 @@
 </header>
 
 <div class="uk-container uk-container-small uk-margin-medium ">
-    <div class="link-primary">
+    <div>
         <div data-uk-grid class="uk-grid">
         {% for section in site.data.navigation_docs %}
             {% for doc in section.docs %}
                 {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
                 {% assign p = site.docs | where:"url", doc_url | first %}
                 <div class="m-theme--c{{ forloop.index }}">
-                    <a class="link-landing m-theme-bc-hover" href="{{ p.url }}">{{ p.title }} </a>
+                    <a id="{{ forloop.index }}" class="link-landing m-theme-bc-hover" href="{{ p.url }}">{{ p.title }} </a>
                 </div>
             {% endfor %}
         {% endfor %}
         </div>
     </div>
 </div>
+
+
+<script>
+    var classname = document.getElementsByClassName("link-landing");
+    var linkHover = function() {
+        var attribute = 'm-theme--c'+this.getAttribute("id");
+        document.getElementById("hero-line").className = attribute;
+        document.getElementById("nav-logo").className = attribute;
+    };
+    var linkPlain = function() {
+        document.getElementById("hero-line").className = 'm-theme-neutral';
+        document.getElementById("nav-logo").className = 'm-theme-neutral';
+    };
+
+    for (var i = 0; i < classname.length; i++) {
+        classname[i].addEventListener('mouseover', linkHover, false);
+        classname[i].addEventListener('mouseout', linkPlain, false);
+    }
+</script>
