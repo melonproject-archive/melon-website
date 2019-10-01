@@ -855,17 +855,21 @@
 }
 
 
-
+$image-base-size: 8px;
 .uk-image,
 [class*="uk-image"]{
+    max-width: 100%;
     &[class*="--100"]{
         width: 100%;
     }
     &[class*="--badge"]{
-        width: 56px;
+        width: $image-base-size*6;
     }
     &[class*="--small"]{
-        width: 96px;
+        width: $image-base-size*12;
+    }
+    &[class*="--medium"]{
+        width: $image-base-size*24;
     }
    
 }
