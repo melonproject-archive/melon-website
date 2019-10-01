@@ -1,6 +1,7 @@
 ---
 title: Protocol Security
 subtitle: 
+order: 6
 ---
 
 Security of the Melon protocol is of utmost importance to the Melon Council. Melonport had several audits conducted by reputable auditors (Least Authority, Deja vu, Solidified, ChainSecurity). That being said, we encourage anyone willing to use Melon with substantial amount of AUM to conduct their own audits. 

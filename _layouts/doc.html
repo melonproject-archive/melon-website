@@ -14,19 +14,24 @@ layout: default
                     {% for doc in section.docs %}
                       {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
                       {% assign p = site.docs | where:"url", doc_url | first %}
-                      <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a href="{{ p.url }}">{{ p.title }}</a></li>
+                      <li class="{% if doc_url == page.url %}uk-active{% endif %} m-theme--c{{ forloop.index }}"><a id="c{{ forloop.index }}" class="link-docs m-theme-c-hover m-theme-c-active" href="{{ p.url }}">{{ p.title }}</a></li>
                     {% endfor %}
                     </ul>
                     {% endfor %}
+                    <div class="uk-margin-medium">
+                        <div class="uk-grid uk-grid-small uk-child-width-auto uk-padding-small">
+                            {% include social-networks.html %}
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="uk-width-1-1 uk-width-expand@m">
 
-                <article class="uk-article">
+                <article class="uk-article m-theme--c{{ page.order}}">
 
                     <h1 class="uk-article-title">{{ page.title | escape }}</h1>
-                    <hr class="uk-hr"></hr>
+                    <hr class="uk-hr m-theme-bc"></hr>
 
                     {% if page.subtitle %}<p class="uk-text-lead uk-text-muted">{{ page.subtitle }}</p>{% endif %}
 
@@ -34,11 +39,11 @@ layout: default
                         {% include post-meta.html %}
                     </div>
 
-                    <div class="article-content link-primary">
+                    <div class="article-content link-primary m-theme-link">
                         {{ content }}
                     </div>
 
-                    <hr class="uk-margin-medium">
+                    <hr class="uk-margin-medium m-theme-bc">
 
                     {% include paginate-doc.html %}
 

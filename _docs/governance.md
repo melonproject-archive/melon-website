@@ -1,14 +1,21 @@
 ---
 title: Governance
 subtitle: 
+order: 4
 ---
 
-After delivering the v1.0 of Melon in February 2019, Melonport AG dissolved as promised, and handed over the governance of the protocol to a decentralized governance system. The Melon governance system can be described as being a skill-based and user-centric model. You can learn more about the Melon governance system [here](https://medium.com/melonprotocol/introduction-to-the-melon-governance-system-f6ff73c70eb0)
+After delivering the v1.0 of Melon in February 2019, Melonport AG dissolved as promised, and handed over the governance of the protocol to a decentralized governance system. The Melon governance system can be described as being a skill-based and user-centric model. You can learn more about the Melon governance system [here](https://medium.com/melonprotocol/introduction-to-the-melon-governance-system-f6ff73c70eb0).
 
 
 ### The Melon Council
-
-The Melon Council is a DAO that governs the protocol and is responsible for its future maintenance. All decisions made by the Melon Council are consultable in real time on the [Melon Council aragonOS interface](https://aragon.mainnet.aragonpm.com/#/0xfe1f2de598f42ce67bb9aad5ad473f0272d09b74/0x5e7ddf72114842a580b8d0db57da191eeced8db9). 
+<div class="uk-grid">
+	<div class="uk-flex uk-flex-middle uk-width-1-1 uk-width-1-4@m uk-margin">
+		<img class="uk-image--medium" src="{{site.uploads | absolute_url}}aragon-logo.png" alt="aragonOS logo">
+	</div>
+	<div class="uk-width-1-1 uk-width-3-4@m">
+		The Melon Council is a DAO that governs the protocol and is responsible for its future maintenance. All decisions made by the Melon Council are consultable in real time on the <a href="https://aragon.mainnet.aragonpm.com/#/0xfe1f2de598f42ce67bb9aad5ad473f0272d09b74/0x5e7ddf72114842a580b8d0db57da191eeced8db9" target="_blank">Melon Council aragonOS interface </a> .<br>The Melon Council DAO operations are powered by aragonOS.  A customized Aragon DAO for the Melon Council was deployed and is able to natively interact with the Melon protocol.
+	</div>
+</div>
 
 #### Mission
 
@@ -26,13 +33,13 @@ In practice, the Melon Council is responsible for the following:
 
 The Melon Council (MC) is comprised of the MTC (Melon Technical Council) and of the MEB (Melon Exposed Businesses) representatives.
 
-**_Melon Technical Council (MTC)_**
+**<i>Melon Technical Council (MTC)</i>**
 
 The MTC is the subset of the Melon Council that is responsible for providing technical expertise in various domains, and help the network make informed decisions. 
 
 The initial MTC members were appointed by the former Melonport team, and from there, new MTC members can be voted in by the Melon Council. 
 
-**_Melon Exposed Businesses (MEB) Representatives_**
+**<i>Melon Exposed Businesses (MEB) Representatives</i>**
 
 The Melon governance model is also a user-centric model. It provides users with the ability to be represented, voice their needs and to take part in the decision-making process of the network. 
 
@@ -40,11 +47,11 @@ Users of the network that can prove a certain % of  AUM on the network have MEB 
 
 #### Current members
 
-{% include team.html authors="janos, matthew, fabian, will, martin, nick, zahreddine, jenna" title="" subtitle=""%}
+{% include team-minimal.html authors="janos, matthew, fabian, will, martin, nick, zahreddine, jenna" title="" subtitle=""%}
 
 ### Join the MTC
 
-You can apply to join the MTC by sending your profile and motivations to: team@meloncouncil.io. 
+You can apply to join the MTC by sending your profile and motivations to: [team@meloncouncil.io](mailto:team@meloncouncil.io) . 
 
 Applicants to the Technical Council shall meet the following criteria:
 - Provable technical skills and expertise with regards to Melon (its codebase, token economics, ecosystem) and/or existing meaningful contribution to the Melon codebase

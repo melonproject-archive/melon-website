@@ -1,0 +1,78 @@
+$melon-themes: (
+    c1: #BD3E3E,
+    c2: #DC7D48,
+    c3: #F0B255,
+    c4: #EECD02,
+    c5: #92C551,
+    c6: #07AA6F,
+    c7: #60CAC4,
+    c8: #4064C0,
+    c9: #9865CC,
+    c10: #DE9AD3,
+);
+
+@each $melon-theme, $color-code in $melon-themes{
+    .m-theme--#{$melon-theme}{
+
+			svg{
+				.m-theme-fill{
+					transition: all 0.2s ease-in-out;
+					fill: $color-code;
+				}
+			}
+      .m-theme-bg{
+        background: $color-code;
+      }
+      .m-theme-c{
+        color: $color-code;
+      }
+      .m-theme-c-hover{
+      	&:hover{
+      		transition: all 0.2s ease-in-out;
+        	color: $color-code;
+        }
+      }
+      &.uk-active {
+      	.m-theme-c-active{
+      		color: $color-code;
+      	}
+      }
+      .m-theme-bc{
+        border-color: $color-code;
+      }
+      .m-theme-bc-hover{
+      	&:hover{
+      		transition: all 0.2s ease-in-out;
+      		border-color: $color-code;
+      	}
+      }
+      .m-theme-link{
+      	a{
+      		transition: all 0.3s ease-in-out;
+      		color:$color-code;
+      		border-color: $color-code;
+      		&:hover{
+      			opacity: 0.7;
+      		}
+      	}
+      }
+    }
+}
+
+@each $melon-theme, $color-code in $melon-themes{
+  .m-theme--#{$melon-theme}--override{
+    svg{
+      .m-theme-fill{
+        transition: all 0.2s ease-in-out;
+        fill: $color-code !important;
+      }
+    }
+  }
+}
+
+.m-theme-neutral{
+	transition: all 0.5s ease-in-out;
+	color: inherit;
+	background: inherit;
+	border-color: inherit;
+}

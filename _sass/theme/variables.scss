@@ -14,7 +14,7 @@ $base-link-hover-color:                         $global-color;
 $link-muted-hover-color:                        $global-color;
 
 // Font
-$global-font-family:                            system-ui;
+$global-font-family:                            'Source Serif Pro',"Palatino Linotype", "Book Antiqua", Palatino, serif;
 $global-xxlarge-font-size:                      2.25rem;    // H1
 $global-xlarge-font-size:                       1.6875rem;  // H2
 $global-large-font-size:                        1.375rem;   // H3
@@ -41,7 +41,7 @@ $border-radius-medium:                          12px;
 $border-radius-large:                           16px;
 
 // Pre & Code
-$base-code-font-family:                         Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+$base-code-font-family:                         'Source Serif Pro',"Palatino Linotype", "Book Antiqua", Palatino, serif;
 $base-code-color:                               darken($global-primary-background, 3%);
 $base-pre-font-size:                            $global-small-font-size;
 $base-pre-line-height:                          1.65;
@@ -155,8 +155,8 @@ $internal-accordion-close-image:                "data:image/svg+xml,%3Csvg width
 $featured-right-image:                          "data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline fill='none' stroke='#000' stroke-width='1.03' points='7 4 13 10 7 16' /%3E%3C/svg%3E%0A";
 
 // Doc navigation
-$docs-sidebar-width:                            260px;
-$docs-sidebar-width-l:                          360px;
+$docs-sidebar-width:                            200px;
+$docs-sidebar-width-l:                          300px;
 
 // Changelog
 $timeline-border-width:                         4px;

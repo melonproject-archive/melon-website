@@ -1,0 +1,41 @@
+<div class="uk-team-section uk-margin-medium-top">
+    <div class="uk-container uk-container-expand">
+
+        <div class="uk-grid uk-child-width-1-1 uk-child-width-1-2@m  uk-text-center" data-uk-grid>
+
+        {% if include.authors %}
+            {% assign authors = include.authors | split: ", " %}
+        {% else %}
+            {% assign authors = site.authors %}
+        {% endif %}
+
+        {% for author in authors %}
+
+            {% if include.authors %}
+                {% assign item = site.authors[author] %}
+            {% else %}
+                {% assign item = author[1] %}
+            {% endif %}
+
+            <div class="">
+                <div class="uk-card uk-flex uk-flex-middle">
+                    {% if item.avatar %}
+                        {% if item.avatar contains 'http' %}
+                            {% assign domain = '' %}
+                        {% else %}
+                            {% assign domain = site.uploads | absolute_url %}
+                        {% endif %}
+
+                        <img class="uk-border-circle" src="{{ domain }}{{ item.avatar }}" alt="{{ item.name }}">
+                    {% endif %}
+                    <div class="uk-margin-left uk-text-left">
+                        <h5 class="">{{ item.name }}</h5>
+                        <p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">{{ item.title }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+
+    </div>
+</div>

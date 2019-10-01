@@ -2,9 +2,10 @@
 title: Set up your fund
 subtitle: 
 tags: [featured]
+order: 3
 ---
 
-You can set up your fund today on the Ethereum main net under 10 minutes and for less than $50, by downloading the Melon Manager Interface (MMI) [here].(https://github.com/melonproject/melon-lab/releases) **(do not download this interface from anywhere else)**.
+You can set up your fund today on the Ethereum main net under 10 minutes and for less than $50, by downloading the Melon Manager Interface (MMI) [here](https://github.com/melonproject/melon-lab/releases) .<br>**Do not download this interface from anywhere else**.
 
 The [v1.0 release blog post](https://medium.com/melonprotocol/melon-v1-0-zahreddino-60105f51988d) contains detailed instructions.
 

@@ -1,6 +1,7 @@
 ---
 title: Get involved!
 subtitle: 
+order: 10
 ---
 
 - [Apply with an MFP](https://github.com/melonproject/MF)

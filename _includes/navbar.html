@@ -1,5 +1,5 @@
-<div{% if site.navbar.sticky %} data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200"{% endif %}>
-    <nav class="uk-navbar-container">
+<div class="">
+    <nav class="uk-navbar-container uk-navbar-sticky">
         <div class="uk-container">
             <div data-uk-navbar>
                 <div class="uk-navbar-left">
@@ -61,7 +61,11 @@
                     </ul>
                 </div>
                 <div class="uk-navbar-center">
-                    <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">{% if site.logo %}<img src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
+                    <a class="uk-navbar-item uk-logo m-theme--c{{include.theme}}" href="{{ "/" | relative_url }}">
+                        <div id="nav-logo" class="">
+                            {% include logo.svg %}
+                        </div>
+                    </a>
                 </div>
                 <div class="uk-navbar-right uk-hidden">
                     {% if site.navbar.search %}
