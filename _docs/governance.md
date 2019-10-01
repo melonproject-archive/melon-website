@@ -8,8 +8,14 @@ After delivering the v1.0 of Melon in February 2019, Melonport AG dissolved as p
 
 
 ### The Melon Council
-
-The Melon Council is a DAO that governs the protocol and is responsible for its future maintenance. All decisions made by the Melon Council are consultable in real time on the [Melon Council aragonOS interface](https://aragon.mainnet.aragonpm.com/#/0xfe1f2de598f42ce67bb9aad5ad473f0272d09b74/0x5e7ddf72114842a580b8d0db57da191eeced8db9). 
+<div class="uk-grid">
+	<div class="uk-flex uk-flex-middle uk-width-1-1 uk-width-1-4@m uk-margin">
+		<img class="uk-image--medium" src="{{site.uploads | absolute_url}}aragon-logo.png" alt="aragonOS logo">
+	</div>
+	<div class="uk-width-1-1 uk-width-3-4@m">
+		The Melon Council is a DAO that governs the protocol and is responsible for its future maintenance. All decisions made by the Melon Council are consultable in real time on the <a href="https://aragon.mainnet.aragonpm.com/#/0xfe1f2de598f42ce67bb9aad5ad473f0272d09b74/0x5e7ddf72114842a580b8d0db57da191eeced8db9" target="_blank">Melon Council aragonOS interface </a> .<br>The Melon Council DAO operations are powered by aragonOS.  A customized Aragon DAO for the Melon Council was deployed and is able to natively interact with the Melon protocol.
+	</div>
+</div>
 
 #### Mission
 
