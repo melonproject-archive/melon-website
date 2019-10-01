@@ -41,7 +41,7 @@
                 {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
                 {% assign p = site.docs | where:"url", doc_url | first %}
                 <div class="m-theme--c{{ forloop.index }}">
-                    <a id="{{ forloop.index }}" class="link-landing m-theme-bc-hover" href="{{ p.url }}">{{ p.title }} </a>
+                    <a id="{{ forloop.index }}" class="link-landing m-theme-c-hover m-theme-bc-hover" href="{{ p.url }}">{{ p.title }} </a>
                 </div>
             {% endfor %}
         {% endfor %}
