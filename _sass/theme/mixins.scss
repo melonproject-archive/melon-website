@@ -313,6 +313,7 @@
 @mixin hook-article-misc(){
     .article-content {
         line-height: 1.8;
+        text-align: justify;
 
         figure img, .uk-slideshow-items {
             border: solid 1px $border-xlight;
