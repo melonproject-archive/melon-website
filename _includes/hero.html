@@ -31,7 +31,7 @@
     </div>
 </header>
 
-<div class="uk-container uk-container-small uk-margin-large">
+<div class="uk-container uk-container-small uk-margin-medium">
     <div class="link-primary">
         <div data-uk-grid class="uk-grid">
         {% for section in site.data.navigation_docs %}
@@ -39,7 +39,7 @@
                 {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
                 {% assign p = site.docs | where:"url", doc_url | first %}
                 <div class="">
-                    <a href="{{ p.url }}">{{ p.title }}</a>
+                    <a class="link-landing" href="{{ p.url }}">{{ p.title }}</a>
                 </div>
             {% endfor %}
         {% endfor %}
