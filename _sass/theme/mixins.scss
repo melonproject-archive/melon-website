@@ -550,14 +550,15 @@
     
     .doc-nav > li.uk-active > a {
         position: relative;
-        &:before {
-            content: "";
-            position: absolute;
-            top: 15px;
-            left: -14px;
-            width: 7px;
-            border-top: 1px solid $global-primary-background;
-        }
+        font-weight: 600;
+        //&:before {
+        //    content: "";
+        //    position: absolute;
+        //    top: 15px;
+        //    left: -14px;
+        //    width: 7px;
+        //    border-top: 1px solid $global-primary-background;
+        //}
     }
     
     .hero-image {

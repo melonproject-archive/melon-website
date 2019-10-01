@@ -13,17 +13,30 @@ $melon-themes: (
 
 @each $melon-theme, $color-code in $melon-themes{
     .m-theme--#{$melon-theme}{
+
       .m-theme-bg{
         background: $color-code;
       }
       .m-theme-c{
         color: $color-code;
       }
+      .m-theme-c-hover{
+      	&:hover{
+      		transition: all 0.2s ease-in-out;
+        	color: $color-code;
+        }
+      }
+      &.uk-active {
+      	.m-theme-c-active{
+      		color: $color-code;
+      	}
+      }
       .m-theme-bc{
         border-color: $color-code;
       }
       .m-theme-bc-hover{
       	&:hover{
+      		transition: all 0.2s ease-in-out;
       		border-color: $color-code;
       	}
       }
