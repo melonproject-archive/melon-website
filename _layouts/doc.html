@@ -14,7 +14,7 @@ layout: default
                     {% for doc in section.docs %}
                       {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
                       {% assign p = site.docs | where:"url", doc_url | first %}
-                      <li class="{% if doc_url == page.url %}uk-active{% endif %} m-theme--c{{ forloop.index }}"><a class="m-theme-c-hover m-theme-c-active" href="{{ p.url }}">{{ p.title }}</a></li>
+                      <li class="{% if doc_url == page.url %}uk-active{% endif %} m-theme--c{{ forloop.index }}"><a id="c{{ forloop.index }}" class="link-docs m-theme-c-hover m-theme-c-active" href="{{ p.url }}">{{ p.title }}</a></li>
                     {% endfor %}
                     </ul>
                     {% endfor %}
