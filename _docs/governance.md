@@ -64,7 +64,7 @@ Each application to the MTC will be reviewed by the whole council and will be su
 
 ### Join the MEB
 
-The trade association MAMA (mama.global) is happy to help out with the organization of the MEB.<br>Reach out here: [meb@mama.global](mailto:meb@mama.global)
+The trade association [MAMA](https://mama.global/) is happy to help out with the organization of the MEB.<br>Reach out here: [meb@mama.global](mailto:meb@mama.global)
 
 ### Get in touch
 
