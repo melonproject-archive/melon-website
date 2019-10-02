@@ -6,11 +6,11 @@
     "lint": "jshint assets/js/custom.js",
     "uglify": "uglifyjs node_modules/uikit/dist/js/uikit.js node_modules/uikit/dist/js/uikit-icons.js node_modules/simple-jekyll-search/dest/simple-jekyll-search.js assets/js/custom.js -m -c -o assets/js/main.js",
     "concat": "uglifyjs node_modules/uikit/dist/js/uikit.js node_modules/uikit/dist/js/uikit-icons.js node_modules/simple-jekyll-search/dest/simple-jekyll-search.js assets/js/custom.js -b -o assets/js/main.js",
-    "dev": "npm run lint && npm run concat",
+    "dev": "yarn lint && yarn concat",
     "prebuild": "rm -rf public",
-    "build": "npm run lint && npm run uglify && bundle exec jekyll build && mv _site public",
-    "watch": "watch 'npm run dev' assets/js/",
-    "postinstall": "npm run copy && npm run concat"
+    "build": "yarn lint && yarn uglify && bundle exec jekyll build && mv _site public",
+    "watch": "watch 'yarn dev' assets/js/",
+    "postinstall": "yarn copy && yarn concat"
   },
   "dependencies": {
     "simple-jekyll-search": "^1.7.2",
