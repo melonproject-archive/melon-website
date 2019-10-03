@@ -4,24 +4,29 @@ subtitle:
 order: 8
 ---
 
-[Download the Melon Manager Interface](https://github.com/melonproject/melon-lab/releases) in order to create your own fund or invest in an existing fund. Instructions can be found [here](https://medium.com/melonprotocol/melon-v1-0-zahreddino-60105f51988d).
+#### Users
 
-If you’d like to dig into the smart contracts, head over [here](https://github.com/melonproject/protocol).<br>
-It also contains a handy Typescript library to make interactions with the protocol easier.
+- Explore: [Melon Fund Explorer](http://monitoring.melon.network/)
+- Use: [Download the Melon Manager Interface](https://github.com/melonproject/melon-lab/releases) in order to create your own fund or invest in an existing fund.
+- Learn: [Instructions on how to use the Melon Manager Interface](https://medium.com/melonprotocol/melon-v1-0-zahreddino-60105f51988d).
 
-The technical documentation is available at the [here](https://docs.melonport.com/).
+#### Developers
 
-- [Melon Fund Explorer](http://monitoring.melon.network/)
+- [Protocol repository](https://github.com/melonproject/protocol): This repository contains all the smart contracts that are part of the Melon system. It also contains a handy Typescript library to make interactions with the protocol easier.
+- [Technical documentation](https://docs.melonport.com/).
 - [Melon Funding Proposals](https://github.com/melonproject/MFP)
 - [Melon Improvement Proposals](https://github.com/melonproject/MIP)
 
 #### Melon videos from M-1
 
-- [Melon Introduction Video](https://www.youtube.com/watch?v=mqnjDnfEzog&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=4&t=2s)
-- [Deep Dive into the Melon Protocol Video](https://www.youtube.com/watch?v=RSPusTmlWC0&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=4)
-- [Integrating DEX into the Melon Guide Video](https://www.youtube.com/watch?v=T_P4ZiLzF64&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=5)
-- [Risk Engineering Instruction Video](https://www.youtube.com/watch?v=xMVO726bpbk&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=6)
-- [Front-end Architecture and overview of Melon Video](https://www.youtube.com/watch?v=Rc_zldkswfo&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=7)
+- [Melon Tech Stack Introduction](https://www.youtube.com/watch?v=mqnjDnfEzog&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=4&t=2s) by Jenna Zenk
+- [Deep Dive into the Melon Protocol](https://www.youtube.com/watch?v=RSPusTmlWC0&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=4) by Travis Jacobs
+- [DEX integrations on Melon](https://www.youtube.com/watch?v=T_P4ZiLzF64&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=5) by Gautham Nekkanti
+- [Risk Engineering on Melon](https://www.youtube.com/watch?v=xMVO726bpbk&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=6) by John Orthwein
+- [Front-end Architecture and overview of Melon](https://www.youtube.com/watch?v=Rc_zldkswfo&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=7) by Simon Schmid
+- [Unveiling the Melon Council](https://www.youtube.com/watch?v=B2a6SJDIXd8&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=17) by Jenna Zenk
+
+See full M-1 playlist [here](https://www.youtube.com/watch?v=sQLl4P6Pnzo&list=PLzdnEGRLbpgZrywI9gc9ZLrZRo8FKoNir&index=1).
 
 #### Important blog posts
 
