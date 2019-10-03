@@ -11,7 +11,7 @@ It also contains a handy Typescript library to make interactions with the protoc
 
 The technical documentation is available at the [here](https://docs.melonport.com/).
 
-- [Melon Monitoring Tool](http://monitoring.melon.network/)
+- [Melon Fund Explorer](http://monitoring.melon.network/)
 - [Melon Funding Proposals](https://github.com/melonproject/MFP)
 - [Melon Improvement Proposals](https://github.com/melonproject/MIP)
 
