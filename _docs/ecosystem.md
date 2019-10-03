@@ -26,7 +26,7 @@ There are currently two independent teams working on Melon or building things on
 		<img class="uk-image--medium" src="{{site.uploads | absolute_url}}avantgarde-logo.jpg" alt="The Avantgarde Finance logo">
 	</div>
 	<div class="uk-width-1-1 uk-width-3-4@m">
-		<a href="https://avantgarde.finance/" target="_blank">The Avantgarde Finance </a> team (former Melonport team) proposed <a href="https://github.com/melonproject/MFP/blob/master/Pending/MFP2/MFP_2_Avantgarde_Finance.pdf" target="_blank">MFP #2 </a>to the Melon Council in September 2019. Avantgarde Finance provides cutting-edge blockchain-based professional financial tools. The Avantgarde vision is to create a better everyday experience for aspiring asset managers and their investors by giving them easy access to a new financial infrastructure using Melon and other supporting DeFi technologies.
+		<a href="https://avantgarde.finance/" target="_blank">The Avantgarde Finance </a> team (former Melonport team) proposed <a href="https://github.com/melonproject/MFP/blob/master/Pending/MFP2/MFP_2_Avantgarde_Finance.pdf" target="_blank">MFP #2 </a>, which was accepted by the Melon Council in September 2019. With a 3 years roadmap, Avantgarde Finance plans to address the existing painpoints for the Melon ecosystem, while making sure Melon stays ahead of the curve. Avantgarde Finance provides cutting-edge blockchain-based professional financial tools. The Avantgarde vision is to create a better everyday experience for aspiring asset managers and their investors by giving them easy access to a new financial infrastructure using Melon and other supporting DeFi technologies.
 	</div>
 </div>
 
