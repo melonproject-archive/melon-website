@@ -12,7 +12,7 @@ Melon is an open-source protocol which enables anyone to set up and manage a poo
 - Using Melon, the fund set-up cost is < $50 and takes a few minutes - no more barriers to entry.
 - Melon requires fund managers to define the key rules and parameters of the fund which are in turn deployed to the blockchain and enforced by smart contracts - no more need for fund administrators.
 - All transactions are recorded (transparently and immutably) on the blockchain - no more need for complex auditing.
-- All assets remain either in the custody of investors themselves and can be redeemed at any time - no more need for custodians.
+- All assets remain either in the custody of investors themselves or can be redeemed at any time - no more need for custodians.
 - All data about fund performance is on-chain thus transparent, enabling investors and managers alike to compare fund allocation and performance. 
 Transactions on the blockchain are near instantaneous, and unlike transactions in the traditional world which can take several days, do not require clearing and settlement services.  
 - By enabling investors to retain custody of their assets and enforcing fund parameters on the blockchain via smart contracts, Melon dramatically reduces the ability of fund managers to act fraudulently or malevolently. 
