@@ -7,8 +7,8 @@ order: 8
 #### Users
 
 - Explore: [Melon Fund Explorer](http://monitoring.melon.network/)
-- Use: [Download the Melon Manager Interface](https://github.com/melonproject/melon-lab/releases) in order to create your own fund or invest in an existing fund.
-- Learn: [Instructions on how to use the Melon Manager Interface](https://medium.com/melonprotocol/melon-v1-0-zahreddino-60105f51988d).
+- Use: [Melon Terminal](https://melon.avantgarde.finance/) in order to create your own fund or interact with existing funds.
+- Learn: Release blog post coming soon.
 
 #### Developers
 
