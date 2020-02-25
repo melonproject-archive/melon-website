@@ -8,7 +8,7 @@
     "concat": "uglifyjs node_modules/uikit/dist/js/uikit.js assets/js/custom-icons.js node_modules/simple-jekyll-search/dest/simple-jekyll-search.js assets/js/custom.js -b -o assets/js/main.js",
     "dev": "yarn lint && yarn concat",
     "prebuild": "rm -rf public",
-    "build": "yarn lint && yarn uglify && bundle exec jekyll build && mv _site public",
+    "build": "yarn lint && yarn uglify && bundle exec jekyll build",
     "watch": "watch 'yarn dev' assets/js/",
     "postinstall": "yarn copy && yarn concat"
   },
