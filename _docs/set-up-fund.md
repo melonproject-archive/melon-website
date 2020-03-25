@@ -7,7 +7,7 @@ order: 3
 
 You can set up your fund today on the Ethereum main net under 10 minutes and for less than $50, on the [Melon Terminal](https://melon.avantgarde.finance/). Check out this full demo of the Melon Terminal: 
 
-<iframe width="100%" height="500px" src="https://www.youtube.com/watch?v=Ndl7mU6kZjc"></iframe>
+<iframe width="100%" height="500px" src="https://www.youtube-nocookie.com/embed/Ndl7mU6kZjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 That interface also allows you to browse the Melon network and invest in other funds. 
 
