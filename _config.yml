@@ -5,115 +5,115 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              Melon
-description:        asset management 3.0
-lang:               en
+title: Melon
+description: asset management 3.0
+lang: en
 
 # Site subpath, e.g. /blog
-baseurl:            ""
+baseurl: ""
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-permalink:          /:title/
+permalink: /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://melonport-staging.herokuapp.com/"
+url: "https://melonprotocol.com/"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:               melon-logo.svg
+logo: melon-logo.svg
 
 navbar:
-    sticky:         false
-    search:         false
+  sticky: false
+  search: false
 
 # Default author settings
 author:
-    name:           Jenna Zenk
-    title:          CTO @ Avantgarde Finance
-    avatar:         avatars/avatar-M.png
+  name: Jenna Zenk
+  title: CTO @ Avantgarde Finance
+  avatar: avatars/avatar-M.png
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
-    janos:
-      name:         Janos Berghorn
-      title:        Investor @ KR1
-      avatar:       avatars/avatar-MTC.png
-    matthew:
-      name:         Matthew Di Ferrante
-      title:        Founder @ ZK Labs & Security at Ethereum Foundation
-      avatar:       avatars/avatar-MTC.png
-    fabian:
-      name:         Fabian Gompf
-      title:        VP @ Parity Technologies
-      avatar:       avatars/avatar-MTC.png
-    will:
-      name:         Will Harborne
-      title:        CEO @ DeversiFi
-      avatar:       avatars/avatar-MTC.png
-    martin:
-      name:         Martin Lundfall
-      title:        Formal Verification Researcher @ Ethereum Foundation & DappHub
-      avatar:       avatars/avatar-MTC.png
-    nick:
-      name:         Nick Munoz-McDonald
-      title:        Smart Contract Auditor & Researcher @ G0 Group
-      avatar:       avatars/avatar-MTC.png
-    zahreddine:
-      name:         Zahreddine Touag
-      title:        Co-Founder & Head of Trading @ Woorton
-      avatar:       avatars/avatar-MTC.png
-    jenna:
-      name:         Jenna Zenk
-      title:        CTO @ Avantgarde Finance
-      avatar:       avatars/avatar-MTC.png
+  janos:
+    name: Janos Berghorn
+    title: Investor @ KR1
+    avatar: avatars/avatar-MTC.png
+  matthew:
+    name: Matthew Di Ferrante
+    title: Founder @ ZK Labs & Security at Ethereum Foundation
+    avatar: avatars/avatar-MTC.png
+  fabian:
+    name: Fabian Gompf
+    title: VP @ Parity Technologies
+    avatar: avatars/avatar-MTC.png
+  will:
+    name: Will Harborne
+    title: CEO @ DeversiFi
+    avatar: avatars/avatar-MTC.png
+  martin:
+    name: Martin Lundfall
+    title: Formal Verification Researcher @ Ethereum Foundation & DappHub
+    avatar: avatars/avatar-MTC.png
+  nick:
+    name: Nick Munoz-McDonald
+    title: Smart Contract Auditor & Researcher @ G0 Group
+    avatar: avatars/avatar-MTC.png
+  zahreddine:
+    name: Zahreddine Touag
+    title: Co-Founder & Head of Trading @ Woorton
+    avatar: avatars/avatar-MTC.png
+  jenna:
+    name: Jenna Zenk
+    title: CTO @ Avantgarde Finance
+    avatar: avatars/avatar-MTC.png
 
 # Social icons displayed in footer
 social:
-    email:
-    website:
-    facebook:
-    flickr:
-    dribbble:
-    github:         https://github.com/melonproject
-    googleplus:
-    instagram:
-    linkedin:
-    pinterest:
-    twitter:        https://twitter.com/melonprotocol
-    vimeo:
-    youtube:
-    reddit:         https://www.reddit.com/r/melonproject/
-    medium:         https://medium.com/melonprotocol
+  email:
+  website:
+  facebook:
+  flickr:
+  dribbble:
+  github: https://github.com/melonproject
+  googleplus:
+  instagram:
+  linkedin:
+  pinterest:
+  twitter: https://twitter.com/melonprotocol
+  vimeo:
+  youtube:
+  reddit: https://www.reddit.com/r/melonproject/
+  medium: https://medium.com/melonprotocol
 
 # Share button
 share:
-    post:           true # Display share buttons on a post page
-    doc:            true # Display share buttons on a doc page
-    twitter:        username # Enable by adding Twitter handle
-    facebook:       true # Enable by setting true (Facebook handle not required)
+  post: true # Display share buttons on a post page
+  doc: true # Display share buttons on a doc page
+  twitter: username # Enable by adding Twitter handle
+  facebook: true # Enable by setting true (Facebook handle not required)
 
 # Default footer image settings
 footer:
-    copyright:      Made by a <a href="https://ivanchromjak.com/">human</a> somewhere on the planet earth.
+  copyright: Made by a <a href="https://ivanchromjak.com/">human</a> somewhere on the planet earth.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
-    shortname:      # 1234
+  shortname: # 1234
 
 # Google analytics code, get your code here https://www.google.com/analytics/
 google_analytics:
 
 # Number of posts displayed on blog page
-paginate:           10
+paginate: 10
 
 # Blog path
-paginate_path:      "/blog/:num/"
+paginate_path: "/blog/:num/"
 
 # Path to post content assets directory i.e post images, pdfs etc
-uploads:            /uploads/
+uploads: /uploads/
 
 # Build settings
-markdown:           kramdown
-highlighter:        rouge
+markdown: kramdown
+highlighter: rouge
 
 gems:
   - jekyll-feed
@@ -128,27 +128,27 @@ exclude:
   - vendor
 
 sass:
-  style:            compressed
+  style: compressed
 
 collections:
   docs:
-    output:         true
+    output: true
   faqs:
-    output:         false
+    output: false
   changelogs:
-    output:         false
+    output: false
 
 # Defaults
 defaults:
   # _posts
   - scope:
-      path:         ""
-      type:         posts
+      path: ""
+      type: posts
     values:
-      layout:       post
+      layout: post
   # _docs
   - scope:
-      path:         ""
-      type:         docs
+      path: ""
+      type: docs
     values:
-      layout:       doc
+      layout: doc
