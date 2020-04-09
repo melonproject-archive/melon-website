@@ -62,8 +62,8 @@ authors:
     title: Co-Founder & Head of Trading @ Woorton
     avatar: avatars/avatar-MTC.png
   jenna:
-    name: Jenna Zenk
-    title: CTO @ Avantgarde Finance
+    name: Travis Jacobs
+    title: Head of Protocol Development @ Avantgarde Finance
     avatar: avatars/avatar-MTC.png
 
 # Social icons displayed in footer
@@ -83,6 +83,8 @@ social:
   youtube:
   reddit: https://www.reddit.com/r/melonproject/
   medium: https://medium.com/melonprotocol
+  discord: https://discord.gg/USe9xDv
+  telegram: https://t.me/melonport
 
 # Share button
 share:

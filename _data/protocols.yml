@@ -10,3 +10,7 @@
 - name: Kyber Network
   image: kyber-logo.png
   url: https://kyber.network/
+
+- name: Uniswap
+  image: uniswap.png
+  url: https://uniswap.exchange/

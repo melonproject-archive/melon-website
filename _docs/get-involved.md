@@ -11,3 +11,5 @@ order: 10
 - Join the Melon Technical Council: email [team@meloncouncil.io](mailto:team@meloncouncil.io) with an introduction on yourself, the relevant expertise you can bring and the reasons why you’d like to join the Melon Council.
 
 - Join the Melon Exposed Businesses: email [meb@mama.global](mailto:meb@mama.global).
+
+- As a fund manager, you can join the Melon Café Telegram Group. Go to the admin page of your fund and enter your Telegram user name to get started.
