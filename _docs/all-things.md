@@ -8,7 +8,7 @@ order: 8
 
 - Explore: [Melon Fund Explorer](http://monitoring.melon.network/)
 - Use: [Melon Terminal](https://melon.avantgarde.finance/) to create your own fund or interact with existing funds.
-- Learn: [Introduction the Melon Terminal](https://medium.com/melonprotocol/introducing-the-melon-terminal-a81a9c5e766e).
+- Learn: [Introducing the Melon Terminal](https://medium.com/melonprotocol/introducing-the-melon-terminal-a81a9c5e766e).
 
 #### Developers
 
