@@ -8,13 +8,14 @@ order: 8
 
 - Explore: [Melon Fund Explorer](http://monitoring.melon.network/)
 - Use: [Melon Terminal](https://melon.avantgarde.finance/) to create your own fund or interact with existing funds.
-- Learn: Release blog post coming soon.
+- Learn: [Introduction the Melon Terminal](https://medium.com/melonprotocol/introducing-the-melon-terminal-a81a9c5e766e).
 
 #### Developers
 
-- [Protocol repository](https://github.com/melonproject/protocol): This repository contains all the smart contracts that are part of the Melon system..
+- [Melon Protocol repository](https://github.com/melonproject/protocol): This repository contains all the smart contracts that are part of the Melon system..
 - [Technical documentation](https://docs.melonport.com/).
 - [MelonJS repository](https://github.com/melonproject/melonjs): This repository contains the library to interact with the Melon protocol through JavaScript/TypeScript.
+- [MelonJS documentation](https://melonjs.melonprotocol.com)
 - [Melon Funding Proposals](https://github.com/melonproject/MFP)
 - [Melon Improvement Proposals](https://github.com/melonproject/MIP)
 
