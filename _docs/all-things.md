@@ -12,8 +12,9 @@ order: 8
 
 #### Developers
 
-- [Protocol repository](https://github.com/melonproject/protocol): This repository contains all the smart contracts that are part of the Melon system. It also contains a handy Typescript library to make interactions with the protocol easier.
+- [Protocol repository](https://github.com/melonproject/protocol): This repository contains all the smart contracts that are part of the Melon system..
 - [Technical documentation](https://docs.melonport.com/).
+- [MelonJS repository](https://github.com/melonproject/melonjs): This repository contains the library to interact with the Melon protocol through JavaScript/TypeScript.
 - [Melon Funding Proposals](https://github.com/melonproject/MFP)
 - [Melon Improvement Proposals](https://github.com/melonproject/MIP)
 
