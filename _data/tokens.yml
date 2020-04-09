@@ -35,10 +35,34 @@
   image: tokens/icon-dgx.png
   url: https://eidoo.io/erc20-tokens-list
 
-- token: DAI
-  image: tokens/icon-dai.png
+- token: SAI
+  image: tokens/icon-sai.png
   url: https://eidoo.io/erc20-tokens-list
 
 - token: USDC
   image: tokens/icon-usdc.png
+  url: https://eidoo.io/erc20-tokens-list
+
+- token: LINK
+  image: tokens/icon-link.png
+  url: https://eidoo.io/erc20-tokens-list
+
+- token: ANT
+  image: tokens/icon-ant.png
+  url: https://eidoo.io/erc20-tokens-list
+
+- token: MANA
+  image: tokens/icon-mana.png
+  url: https://eidoo.io/erc20-tokens-list
+
+- token: REN
+  image: tokens/icon-ren.png
+  url: https://eidoo.io/erc20-tokens-list
+
+- token: RLC
+  image: tokens/icon-rlc.png
+  url: https://eidoo.io/erc20-tokens-list
+
+- token: DAI
+  image: tokens/icon-dai.png
   url: https://eidoo.io/erc20-tokens-list
