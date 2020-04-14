@@ -31,10 +31,6 @@
   image: tokens/icon-rep.png
   url: https://eidoo.io/erc20-tokens-list
 
-- token: DGX
-  image: tokens/icon-dgx.png
-  url: https://eidoo.io/erc20-tokens-list
-
 - token: SAI
   image: tokens/icon-sai.png
   url: https://eidoo.io/erc20-tokens-list
