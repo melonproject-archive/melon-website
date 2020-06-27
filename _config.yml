@@ -27,9 +27,9 @@ navbar:
 
 # Default author settings
 author:
-  name: Jenna Zenk
-  title: CTO @ Avantgarde Finance
-  avatar: avatars/avatar-M.png
+  name: Melon Council
+  title: MelonDAO
+  avatar: avatars/avatar-MTC.png
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
